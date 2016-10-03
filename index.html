@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Allana Creech-Hangman</title>
+	<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+	<!--Title and Information on the game-->
+	<header class="gameTitle">
+		
+		<h1>Bill Sipher Has Returned!</h1>
+	</header>
+	<div class ="help"></div>
+	<!--game rules-->
+	<main class ="container">
+		<section class= "row">
+			<section class="col-md-4">
+				<div id ="gameRules">
+					<h3>Rules:</h3>
+					
+					<h4>Bill is back from Wierdmagadon and wants you.</h4>
+					<h4>Press any key to help guess the word.</h4>
+					<h4>Guess the Word and defeat Bill!</h4>
+					<h4>Be warned you only have 10 guesses.</h4>
+					<h4>Fail to guess and its Game over!!!</h4>
+					<div id="Results"></div>
+				</div>
+
+			</section>
+
+			<section class="col-md-4">
+				<!--form to display hangman-->
+
+				<!--Area to Display hangman-->
+				<div class="hangmanPic">
+				</div>
+			</section>
+
+			<section class="col-md-4">
+				<div id ="rightSideBar">
+					<h3>Scoreboard</h3>
+					<ul class="nav">
+						<li> Wins: <span id="wins">0</span></li>
+						<li> Losses: <span id="losses">0</span></li>
+						<li> Guesses Left: <span id="guessesLeft">10</span></li>
+						<li>Your letters guessed so far: <span id="guesses"></span></li>
+					</ul>
+				</div>
+			</section>
+			<!--Game Results-->
+		</main>
+
+
+		<audio src="../images/backgroundMusic.mp3" autoplay>
+			<p>If you are reading this, it is because your browser does not support the audio element.     </p>
+			<embed src="../images/backgroundMusic.mp3" width="180" height="90" hidden="true" />
+		</audio>
+		<script type="text/javascript" src="assets/game.js"></script>	
+	</body>
+	</html>
