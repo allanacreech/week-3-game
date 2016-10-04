@@ -18,3 +18,15 @@ body{height:100%;
 h1 {	
 	font-family: 'Permanent Marker', 'cursive';
 }
+
+#word span{
+	display: inline-block;
+	padding: 5px;
+	border-bottom: 2px solid black;
+	margin-right: 3px;
+	font-size: 1.5em;
+}
+
+#hangmanarea{
+paddin
+}
