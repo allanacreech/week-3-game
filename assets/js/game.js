@@ -40,8 +40,8 @@ document.onkeydown = function(event)
 function setup(){
 	/*start game configure*/
 	lives = 6;
-	gravityFallsWords = ["dipper"];//, "mabel", "wierdmageodon", "robby",
-	//"gnomes", "unicorn", "journal","wendy"];
+	gravityFallsWords = ["dipper", "mabel", "wierdmageodon", "robby",
+	"gnomes", "unicorn", "journal","wendy"];
 
 	winMessage  ="You Win";
 	loseMessage  = "Sorry You lost";

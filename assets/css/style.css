@@ -1,12 +1,12 @@
 /*import the marker font from here*/
 @import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
 
-
 /*This is forcing body to whole page*/
 body{height:100%;
    width:100%;
-   background: url("../images/paper.jpg") no-repeat center center fixed; 
-  /*This should allow the game to resize appropriately*/
+   background: url(http://vignette1.wikia.nocookie.net/gravityfalls/images/1/14/S2e3_Mystery_Shack_new.png/revision/latest?cb=20140812231800
+) no-repeat center center fixed; 
+/*  This should allow the game to resize appropriately*/
   -webkit-background-size: cover;  
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15,8 +15,12 @@ body{height:100%;
   
 }
 
-h1 {	
+h1, h2 {	
 	font-family: 'Permanent Marker', 'cursive';
+  text-align: center;
+  color: black;
+  border: solid 1px;
+  background-color: rgb(237,192,91);
 }
 
 #word span{
@@ -27,6 +31,15 @@ h1 {
 	font-size: 1.5em;
 }
 
-#hangmanarea{
-paddin
+.box{
+  min-height: 400px;
+  padding-top:20px;
+  border: 20px solid black;
+ background: url("../images/paper.jpg") repeat center center fixed;
+  color: black;
+}
+
+#footerImg{
+  text-align: center;
+  z-index: 1;
 }
